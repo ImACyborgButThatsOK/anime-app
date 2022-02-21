@@ -63,7 +63,7 @@ const Intro = () => {
             <Info>
               <Title>{data.title}</Title>
               <Desc>{data.desc}</Desc>
-              <Button>SHOW MORE</Button>
+              <Button>ASSISTIR</Button>
             </Info>
           </Slide>
         ))}

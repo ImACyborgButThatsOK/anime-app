@@ -100,11 +100,17 @@ export const Button = styled.button`
   padding: 15px;
 
   background-color: transparent;
-  border: 2px solid crimson;
+  border: 2px solid #800f2f;
   border-radius: 5px;
   color: white;
 
   font-size: 20px;
   font-weight: 500;
+
+  transition: all 0.4s ease;
   cursor: pointer;
+
+  &:hover {
+    filter: brightness(0.7);
+  }
 `;

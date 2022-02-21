@@ -6,7 +6,7 @@ export const Container = styled.div`
   height: 100%;
 `;
 
-export const TopAnimes = styled.div`
+export const Animes = styled.div`
   margin: 50px 0px;
   width: 100%;
   height: 100%;

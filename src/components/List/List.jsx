@@ -1,11 +1,11 @@
 import { animesList } from "./data";
-import { Button, Container, Info, Title, TopAnimes } from "./styles";
+import { Button, Container, Info, Title, Animes } from "./styles";
 import ListItem from "../ListItem/ListItem";
 
 const List = () => {
   return (
     <Container>
-      <TopAnimes>
+      <Animes>
         <Info>
           <Title>Animes populares</Title>
 
@@ -13,7 +13,27 @@ const List = () => {
         </Info>
 
         <ListItem data={animesList} />
-      </TopAnimes>
+      </Animes>
+
+      <Animes>
+        <Info>
+          <Title>Últimos episódios</Title>
+
+          <Button>Ver mais</Button>
+        </Info>
+
+        <ListItem data={animesList} />
+      </Animes>
+
+      <Animes>
+        <Info>
+          <Title>Animes recentes</Title>
+
+          <Button>Ver mais</Button>
+        </Info>
+
+        <ListItem data={animesList} />
+      </Animes>
     </Container>
   );
 };
